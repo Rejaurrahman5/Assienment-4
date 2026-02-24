@@ -30,15 +30,15 @@ function deleteCard(element) {
 }
 
 //
-const jobContainer = document.getElementById('job-container');
+// const jobContainer = document.getElementById('job-container');
 
-jobContainer.addEventListener('click', function(event) {
-    if (event.target.classList.contains('delete-btn')) {
-        const card = event.target.closest('.job-card');
-        if (card) {
-            card.remove();
-        }
-    }
-});
+// jobContainer.addEventListener('click', function(event) {
+//     if (event.target.classList.contains('delete-btn')) {
+//         const card = event.target.closest('.job-card');
+//         if (card) {
+//             card.remove();
+//         }
+//     }
+// });
 
 //sir ar
